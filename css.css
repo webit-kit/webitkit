@@ -60,16 +60,16 @@ body {
 }
 
 .secondpage {
-    width: 1080;
-    height: 1920;
+    width: 1440px;
+    height: 605px;
     background-color: #5E75AC;
     padding-top: 0;
     color: white;
 }
 .thirdpage {
-    width: 1080;
-    height: 1920;
-    background-color: #5E75AC;
+    width: 1440px;
+    height: 605px;
+    background-color: #2C4888;
     padding-top: 0;
     color: white;
 }
@@ -78,7 +78,7 @@ body {
     padding-bottom: 128px;
 }
 .transform {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
