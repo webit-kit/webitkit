@@ -1,0 +1,87 @@
+.bodyy{
+    position: absolute;
+    object-fit: fill;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: cover;
+    z-index:-1;
+    opacity: 0.5;
+}
+body {
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.firstpage {
+    width: 1440px;
+    height: 603px;
+}
+.display-3 {
+    font-family: Montserrat;
+  font-weight: 600;
+    font-size: 59;
+}
+#thick {
+
+    font-weight: 700;
+
+}
+#thin {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.btn {
+    font-weight: 500;
+}
+.whiteround {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.img-container {
+    text-align: center;
+    display: block;
+  }
+.symbol {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.rates {
+    text-align: center;
+}
+.middlenav {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#active{
+    border-bottom: 4px solid black;
+}
+
+.secondpage {
+    width: 1080;
+    height: 1920;
+    background-color: #5E75AC;
+    padding-top: 0;
+    color: white;
+}
+.thirdpage {
+    width: 1080;
+    height: 1920;
+    background-color: #5E75AC;
+    padding-top: 0;
+    color: white;
+}
+.paddingtop {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.transform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */ 
+  }
