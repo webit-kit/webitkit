@@ -1,21 +1,32 @@
 .bodyy{
     position: absolute;
-    object-fit: fill;
+    object-fit: cover;
     left: 0;
     top: 0;
     width: 100%;
-    height: cover;
+    height: 700px;
     z-index:-1;
     opacity: 0.5;
+}
+.firstpage {
+    width: 100%;
+    height: 550px;
+}
+.bg-custom {
+    background-color:white;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    margin-top: 114px;
 }
 body {
   font-family: Montserrat;
   font-weight: 600;
 }
-.firstpage {
-    width: 1440px;
-    height: 603px;
-}
+
 .display-3 {
     font-family: Montserrat;
   font-weight: 600;
@@ -60,14 +71,14 @@ body {
 }
 
 .secondpage {
-    width: 1440px;
+    width: 100%;
     height: 605px;
     background-color: #5E75AC;
     padding-top: 0;
     color: white;
 }
 .thirdpage {
-    width: 1440px;
+    width: 100%;
     height: 605px;
     background-color: #2C4888;
     padding-top: 0;
