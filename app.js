@@ -51,17 +51,18 @@ password.addEventListener("change", function(){
     {
         maxchar.classList.toggle("text-danger")
     }
-    else if (n < 8){
+    if (n < 8){
         minchar.classList.toggle("text-danger")
     }
-    else if ((m.match(/[A-E]/gi))===null){
+    if ((m.match(/[A-E]/gi))===null){
         letchar.classList.toggle("text-danger")
         console.log('asdasd')
     }
-    else if ((m.match(/[0-9]/g))===null){
+    if ((m.match(/[0-9]/g))===null){
         numchar.classList.toggle("text-danger")
     }
-    else{
+    else {
         console.log("true")
     }
+
 })
