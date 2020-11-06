@@ -54,6 +54,9 @@ password.addEventListener("change", function(){
     if (n < 8){
         minchar.classList.toggle("text-danger")
     }
+    else {
+        
+    }
     if ((m.match(/[A-E]/gi))===null){
         letchar.classList.toggle("text-danger")
         console.log('asdasd')
