@@ -1,0 +1,50 @@
+body {
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  .secondpage {
+    width: 100%;
+    height: 1500px;
+    background-color: #7a95aa;
+    padding-top: 0;
+    color: white;
+}
+.paddingtop {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.bg-custom {
+    background-color:white;
+}
+#thin {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.fromleft {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.transform {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */ 
+  }
+  ul {
+      background-color: white;
+  }
+  li{
+      color: black;
+  }
+  .card {
+      width: 15rem;
+
+    font-size: 10px;
+  }
+  @media only screen and (min-width: 768px) {
+   .card {
+       width: 20rem;
+   }
+    }
