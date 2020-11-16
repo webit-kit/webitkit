@@ -1,17 +1,21 @@
 body {
     font-family: Montserrat;
     font-weight: 600;
+    background-color: #2C4888;
   }
   .secondpage {
     width: 100%;
-    height: 1500px;
-    background-color: #7a95aa;
+    height: 1169px;
+    background-color: #5E75AC;
     padding-top: 0;
     color: white;
 }
 .paddingtop {
     padding-top: 128px;
-    padding-bottom: 128px;
+}
+.paddingtopl {
+    padding-top: 90px;
+    padding-bottom: 110px;
 }
 .bg-custom {
     background-color:white;
@@ -32,57 +36,59 @@ body {
     -ms-transform: translate(-50%, -50%); /* IE 9 */
     -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */ 
   }
-  ul {
-      background-color: white;
-  }
-  li{
-      color: black;
-  }
-  .card {
-      width: 15rem;
 
-    font-size: 10px;
-  }
+table {
+    width: 400px;
+    font-weight: 200;
+    table-layout: fixed;
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.tablediv {
+    transition: transform .2s;
+}
+.tablediv:hover {
+    transform: scale(1.1); 
+
+}
+a:hover {
+    text-decoration: none;
+}
+thead {
+    background-color: black;
+}
+table td:first-child {
+    border-left: none;
+}
+
+
+table td:last-child {
+    border-right: none;
+}
+table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
   @media only screen and (min-width: 768px) {
    .card {
        width: 20rem;
-   }
+       }
+    .card:hover {
+    width: 25rem;
     }
-
-
-
-#bgpic {
-    object-fit: cover;
-    position: relative;
+        }
+.centered {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
 }
-#topp
-{
-    color: white;
-    width: 100%;
-    height: 320px;
-    background-image: url("https://www.varchev.com/wp-content/uploads/2020/06/Quadruple-witching-1.jpg");
-}
-table {
-    width: 100%;
-    font-weight: 200;
-    table-layout: fixed;
-}
-#tablesize {
-    font-size: 32px;
-}
-ul {
-    background-color: transparent;
-}
-li {
-    color:inherit;
-}
-.dropdown-menu {
-    border: none;
-    position: relative;
-}
-#dropdownMenuButton {
-    width: 100%;
-}
-.btn:focus {
-    box-shadow: none;
+.opac {
+    filter: brightness(50%)
 }
