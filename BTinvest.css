@@ -48,3 +48,41 @@ body {
        width: 20rem;
    }
     }
+
+
+
+#bgpic {
+    object-fit: cover;
+    position: relative;
+}
+#topp
+{
+    color: white;
+    width: 100%;
+    height: 320px;
+    background-image: url("https://www.varchev.com/wp-content/uploads/2020/06/Quadruple-witching-1.jpg");
+}
+table {
+    width: 100%;
+    font-weight: 200;
+    table-layout: fixed;
+}
+#tablesize {
+    font-size: 32px;
+}
+ul {
+    background-color: transparent;
+}
+li {
+    color:inherit;
+}
+.dropdown-menu {
+    border: none;
+    position: relative;
+}
+#dropdownMenuButton {
+    width: 100%;
+}
+.btn:focus {
+    box-shadow: none;
+}
