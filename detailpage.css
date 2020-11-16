@@ -17,10 +17,11 @@ body {
 }
 #topp
 {
-    color: white;
-    width: 100%;
+    background-repeat: repeat-x;
+    filter: brightness(40%);
     height: 320px;
     background-image: url("https://www.varchev.com/wp-content/uploads/2020/06/Quadruple-witching-1.jpg");
+    transform: scaleX(-1);
 }
 table {
     width: 100%;
@@ -46,3 +47,21 @@ li {
 .btn:focus {
     box-shadow: none;
 }
+
+.cont {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #contimg {
+    background-repeat: repeat-x;
+    filter: brightness(40%);
+    height: 320px;
+    background-image: url("https://s27389.pcdn.co/wp-content/uploads/2017/05/AdobeStock_51875542.jpeg");
+  }

@@ -90,5 +90,6 @@ transform: translate(-50%, -50%);
 color: white;
 }
 .opac {
-    filter: brightness(50%)
+    filter: brightness(50%);
+
 }
