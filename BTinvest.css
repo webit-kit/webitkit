@@ -73,14 +73,6 @@ table td {
     border-left: 1px solid #000;
     border-right: 1px solid #000;
 }
-  @media only screen and (min-width: 768px) {
-   .card {
-       width: 20rem;
-       }
-    .card:hover {
-    width: 25rem;
-    }
-        }
 .centered {
 text-align: center;
 position: absolute;
@@ -91,5 +83,62 @@ color: white;
 }
 .opac {
     filter: brightness(50%);
+    width:400px;
+    height:292px; 
+    transform: scaleX(-1);
+
+}
+
+@media only screen and (max-width: 768px){
+
+    
+div.well {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+div.well [class*="col"]{
+    display: inline-block;
+    float: none;
+}
+.row {
+    margin: 4px, 4px; 
+                padding: 4px; 
+                width: 490px; 
+                overflow-x: auto; 
+                overflow-y: hidden; 
+                white-space: nowrap;
+}
+table {
+    width: 350px;
+    font-weight: 200;
+    font-size: 0.7rem;
+    table-layout: fixed;
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tablediv {
+    width: 400px;
+}
+.opac {
+    filter: brightness(50%);
+    width:350px;
+    height:292px; 
+    transform: scaleX(-1);
+
+}
+.short {
+    width:1px;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    font-size: 0.5rem;
+}
+.centered {
+    left: 50%;
+}
 
 }
