@@ -6,7 +6,7 @@ body {
   }
   .secondpage {
     width: 100%;
-    height: 1170px;
+    height: 1180px;
     background-color: rgb(255, 255, 255);
     padding-top: 0;
     
@@ -94,7 +94,7 @@ color: white;
 .secondpage
 {
     width: 100%;
-    height: 1000px;
+    height: 1253px;
 }
     
 div.well {
@@ -114,7 +114,7 @@ div.well [class*="col"]{
                 white-space: nowrap;
 }
 table {
-    width: 350px;
+    width: 320px;
     font-weight: 200;
     font-size: 0.7rem;
     table-layout: fixed;
@@ -124,11 +124,11 @@ table {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .tablediv {
-    width: 400px;
+    width: 340px;
 }
 .opac {
     filter: brightness(50%);
-    width:350px;
+    width:320px;
     height:292px; 
     transform: scaleX(-1);
 
