@@ -40,13 +40,8 @@ ul {
 li {
     color:inherit;
 }
-.dropdown-menu {
-    border: none;
-    position: relative;
-}
-#dropdownMenuButton {
-    width: 100%;
-}
+
+
 .btn:focus {
     box-shadow: none;
 }
@@ -77,7 +72,7 @@ li {
     border: none;
     cursor: pointer;
   }
-  button{
+#mybutton{
     background-color: transparent;
     width: 100%;
     text-align: left;
@@ -111,3 +106,21 @@ li {
   }
   
   .show {display: block;}
+  @media only screen and (max-width: 768px){
+    td {
+      font-size: 0.8rem;
+    }
+    #tablesize {
+      font-size: 17px;
+  }
+  h4 {
+ font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+
+  }
+  ul{
+    font-size: 1rem;
+  }
+  }
