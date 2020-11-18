@@ -131,14 +131,49 @@ table {
 .short {
     width:1px;
 }
+.tocenter {
+    white-space : normal;
+
+}
+.but{
+    margin-left: 35%;
+}
 h3 {
     font-size: 1rem;
 }
 p {
     font-size: 0.5rem;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
 }
 .centered {
     left: 50%;
 }
 
+}
+@media only screen and (min-width:769px) and (max-width: 991px){
+
+table {
+    width: 350px;
+}
+.opac{
+    width: 350px;
+}
+.tablediv{
+    width: 300px;
+}
+.centered {
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
 }
