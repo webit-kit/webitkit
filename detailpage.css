@@ -26,6 +26,12 @@ body {
     background-image: url("https://www.varchev.com/wp-content/uploads/2020/06/Quadruple-witching-1.jpg");
     transform: scaleX(-1);
 }
+.uptext {
+  font-size:2rem;
+}
+.uptext span {
+  font-size: 1rem;
+}
 table {
     width: 100%;
     font-weight: 200;
@@ -53,6 +59,7 @@ li {
 }
 .centered {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -113,6 +120,7 @@ li {
     #tablesize {
       font-size: 17px;
   }
+
   h4 {
  font-size: 1rem;
   }
