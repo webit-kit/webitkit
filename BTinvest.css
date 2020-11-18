@@ -90,7 +90,11 @@ color: white;
 }
 
 @media only screen and (max-width: 768px){
-
+.secondpage
+{
+    width: 100%;
+    height: 1000px;
+}
     
 div.well {
     overflow-x: auto;
