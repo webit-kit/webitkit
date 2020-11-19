@@ -103,7 +103,7 @@ div.well [class*="col"]{
     display: inline-block;
     float: none;
 }
-.row {
+#secondrow .row {
     margin: 4px, 4px; 
                 padding: 4px; 
                 width: 490px; 
