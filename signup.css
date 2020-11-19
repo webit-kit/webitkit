@@ -1,62 +1,62 @@
 body {
-    font-family: Montserrat;
+  font-family: Montserrat;
   font-weight: 400;
 }
 input {
-    border: none;
-    box-sizing: border-box;
-    width: 95%;
+  border: none;
+  box-sizing: border-box;
+  width: 95%;
 }
 .botbor {
-    border-bottom: 1px solid gray;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 70%;
-    margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 70%;
+  margin-bottom: 20px;
 }
 
 .container {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .padding {
-    margin-top: 40px;
-    padding-bottom: 100px;
+  margin-top: 40px;
+  padding-bottom: 100px;
 }
 #fromleft {
-    padding-left: 15%;
-    padding-right: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 #captcha {
-    width: 300px;
-    height: 90px;
-    background-color: #e5e5e5;
-    border-radius: 5px;
-    border: 1px solid #c3c3c3;
+  width: 300px;
+  height: 90px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #c3c3c3;
 }
 #check {
-    margin-top: 45%;
-    margin-left:30px;
-    width: 25px;
-    height: 25px;
+  margin-top: 45%;
+  margin-left: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 #flexcheck {
-    height: 90px;
+  height: 90px;
 }
 #passwordeye:hover {
-    background-color: lightgray;
-    border-radius: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
 }
 @media only screen and (min-width: 992px) {
-    .container {
-            width: 50%;
-    }
-    }
+  .container {
+    width: 50%;
+  }
+}

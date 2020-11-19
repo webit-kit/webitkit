@@ -9,103 +9,93 @@ var numchar = document.getElementById("numchar")
 var passwordeye = document.getElementById("passwordeye");
 var invalidep = document.getElementById("invalidep")
 var a = [0, true];
-var check = [0,0,0,0]
+var check = [0, 0, 0, 0]
 var passwordcontent;
-email.addEventListener("change", function(){
+email.addEventListener("change", function () {
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    
-    if(email.value.match(mailformat))
-    {
-        if(a[0]==1)
-        {
+
+    if (email.value.match(mailformat)) {
+        if (a[0] == 1) {
             invalidem.classList.toggle("d-none");
             emailicon.classList.toggle("text-danger")
             emailicon.classList.toggle("text-success")
         }
-        else
-        {
+        else {
             emailicon.classList.toggle("text-success")
         }
         console.log("true")
-    a[0]=0;
-    a[1]=false;
-    return true;
+        a[0] = 0;
+        a[1] = false;
+        return true;
     }
-    else
-    {
-        if(a[0]==0)
-        {
+    else {
+        if (a[0] == 0) {
             invalidem.classList.toggle("d-none");
             emailicon.classList.toggle("text-danger")
-            a[0]=1;
+            a[0] = 1;
         }
-        if (a[1]==false)
-        {
+        if (a[1] == false) {
             emailicon.classList.toggle("text-success")
         }
         console.log("false")
 
-    return false;
+        return false;
     }
 })
-password.addEventListener("change", function(){
+password.addEventListener("change", function () {
     var n = this.value.length;
     m = this.value
-    
-    if (n > 30)
-    {
-        if (check[0]===0)
-        {maxchar.classList.toggle("text-danger")}
-        check[0]=1
+
+    if (n > 30) {
+        if (check[0] === 0) { maxchar.classList.toggle("text-danger") }
+        check[0] = 1
     }
     else {
-        if (check[0]===1)
-        {maxchar.classList.toggle("text-danger")}
-        check[0]=0
+        if (check[0] === 1) { maxchar.classList.toggle("text-danger") }
+        check[0] = 0
     }
-    if (n < 8){
-        if (check[1]===0)
-        {minchar.classList.toggle("text-danger")}
+    if (n < 8) {
+        if (check[1] === 0) { minchar.classList.toggle("text-danger") }
         console.log("nothere")
-        check[1]=1
+        check[1] = 1
     }
     else {
-        if (check[1]===1){
-        minchar.classList.toggle("text-danger")
-        console.log("main")}
-        console.log("here")
-        check[1]=0
-    }
-    if ((m.match(/[A-E]/gi))===null){
-        if (check[2]===0)
-        {letchar.classList.toggle("text-danger")}
-        check[2]=1
-    }
-    else {
-        if (check[2]===1){
-        letchar.classList.toggle("text-danger")
-   }     check[2]=0
-    }
-    if ((m.match(/[0-9]/g))===null){
-        if (check[3]===0)
-        {numchar.classList.toggle("text-danger")}
-        check[3]=1
-    }
-    else {
-        if (check[3]===1){
-            numchar.classList.toggle("text-danger")}
-            check[3]=0
+        if (check[1] === 1) {
+            minchar.classList.toggle("text-danger")
+            console.log("main")
         }
+        console.log("here")
+        check[1] = 0
+    }
+    if ((m.match(/[A-E]/gi)) === null) {
+        if (check[2] === 0) { letchar.classList.toggle("text-danger") }
+        check[2] = 1
+    }
+    else {
+        if (check[2] === 1) {
+            letchar.classList.toggle("text-danger")
+        } check[2] = 0
+    }
+    if ((m.match(/[0-9]/g)) === null) {
+        if (check[3] === 0) { numchar.classList.toggle("text-danger") }
+        check[3] = 1
+    }
+    else {
+        if (check[3] === 1) {
+            numchar.classList.toggle("text-danger")
+        }
+        check[3] = 0
+    }
     console.log(check)
 
 })
 
-passwordeye.addEventListener("click", function (){
+passwordeye.addEventListener("click", function () {
     if (password.type === "password") {
         password.type = "text";
-      } else {
+    } else {
         password.type = "password";
-      }
+    }
     passwordeye.classList.toggle("fa-eye-slash")
     passwordeye.classList.toggle("fa-eye")
 })
