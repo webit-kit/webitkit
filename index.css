@@ -1,0 +1,217 @@
+body {
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+.fiximg {
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .bg-custom {
+    background-color: white;
+  }
+  .firstpage {
+    padding-top: 50px;
+    width: 100%;
+    height: 698px;
+  }
+  
+  
+  .display-3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 59;
+  }
+  #thick {
+    font-weight: 700;
+  }
+  #thin {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-weight: 500;
+  }
+  .whiteround {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .darkround {
+    padding: 10px;
+    background-color: rgb(207, 207, 207);
+    border: 0.3px solid rgb(93, 112, 168);
+    border-radius: 5px;
+  }
+  .darkerround {
+    padding: 10px;
+    background-color: rgb(93, 112, 168);
+    border-radius: 5px;
+  }
+  .img-container {
+    text-align: center;
+    display: block;
+  }
+  .symbol {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .symbolmain {
+      width: 80px;
+  }
+  .topborder{
+      border-top: 3px solid rgb(93, 112, 168);
+  }
+  .rates {
+    text-align: center;
+  }
+  .middlenav {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #active {
+    border-bottom: 4px solid black;
+  }
+  
+  a{
+      color: black;
+  }
+  .uptext {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+  }
+  .secondpage {
+    width: 100%;
+    height: 698px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0;
+    color: black;
+  }
+  #fromtop {
+    padding-top: 80px;
+  }
+  .thirdpage {
+    width: 100%;
+    height: 698px;
+    background-color: #2c4888;
+    padding-top: 0;
+    color: white;
+  }
+  .fourthpage {
+    width: 100%;
+    height: 698px;
+    background-color: #E5EAF7;
+    padding-top: 0;
+    color: #2c4888;
+  }
+  #fifthpage {
+    width: 100%;
+    height: 698px;
+    background-color: #2c4888;
+    padding-top: 0;
+    color: white;
+  }
+  .paddingtop {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+  .transform {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+  }
+  .cont {
+      padding-top: 16px;
+    width: 50%;
+    font-weight: lighter;
+  }
+  @media only screen and (max-width: 768px) {
+    #thick {
+      font-size: 1rem;
+    }
+    #fromtop :first-child{
+      padding-top: 50px;
+    }
+    #fromtop {
+      padding-top: 0;
+    }
+    .col-sm-12 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    #thin {
+      font-size: 1rem;
+    }
+    .thin {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    img {
+      display: block;
+    }
+    #bottomtable tr {
+      border-bottom: 0.5px solid rgb(238, 238, 238);
+    }
+    .firstpage {
+      padding-top: 50px;
+      width: 100%;
+      height: 526px;
+    }
+  }
+  .slider{
+    height: 50px;
+    padding-left:5px;
+    overflow: hidden;
+  }
+  .slider div {
+    height: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .slider-text1 {
+    animation: slide 5s linear infinite;
+  }
+  @keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;}
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;}
+    100% {margin-top:0px;}
+  }
+  /* fadein animation//
+   
+  .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+  }
+  
+  @keyframes fadeInOpacity {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+   */
+  
+  h1 {
+      font-weight: bold;
+  }
