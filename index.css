@@ -188,6 +188,9 @@ body {
     .firstpage {
       height: auto;
     }
+    #last .paddingtop{
+      padding-bottom: 0;
+    }
   }
   .slider{
     height: 50px;
