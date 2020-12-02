@@ -79,7 +79,9 @@ body {
   #active {
     border-bottom: 4px solid black;
   }
-  
+  #logoimg{
+    padding-right: 20%;
+  }
   a{
       color: black;
   }
@@ -151,6 +153,10 @@ body {
     }
     .fromtop {
       padding-top: 0;
+    }
+    #logoimg{
+      padding-left: 100px;
+      padding-right: 100px;
     }
     .onlysmp {
       padding: 0;
