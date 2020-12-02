@@ -142,7 +142,6 @@ body {
     }
     .cont {
       width: 100%;
-
     }
     #fromtop {
       padding-top: 50px;
@@ -176,6 +175,15 @@ body {
       padding-top: 100px;
       width: 100%;
       height: 526px;
+    }
+    .thirdpage{
+      height: auto;
+    }
+    .fourthpage{
+      height: auto;
+    }
+    .firstpage {
+      height: auto;
     }
   }
   .slider{
