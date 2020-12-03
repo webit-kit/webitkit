@@ -1,9 +1,16 @@
 .container {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-top: 10px;
   padding-bottom: 50px;
+  background-color: white;
   height: 100%;
+  width: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.cont {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 10px;
 }
 body {
   font-family: Montserrat;
@@ -12,8 +19,9 @@ body {
 #textsmall {
   font-size: 13px;
 }
+
 #pref {
-  width: 30px;
+  width: 100px;
   height: 24px;
   background-color: #e5e5e5;
   border-radius: 5px;
@@ -45,19 +53,103 @@ button {
   border: none;
   padding: 0;
   margin: 0;
+  outline: none;
+}
+button:hover{
+  outline: none;
 }
 #profiletag {
   font-size: 1.25rem;
   font-weight: bold;
 }
-@media only screen and (min-width: 768px) {
+
+.opac {
+  filter: brightness(30%);
+  width: 100%;
+  height: 135px;
+  transform: scaleX(-1);
+  object-fit: cover;
+}
+p{
+  font-weight: 600;
+}
+table {
+  width: 100%;
+  font-weight: 200;
+  font-size: 0.7rem;
+  table-layout: fixed;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.centered {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.tablediv{
+  left: 1%;
+  overflow: hidden;
+  width: 98%;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.fixed-bottom {
+  color: black;
+      background-color: white;
+      width: 55%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 30px;
+}
+
+#darken {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  filter: opacity(50%)
+}
+#header {
+  border-bottom: 1px solid grey;
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
   #pref {
-    width: 100px;
+    width: 30px;
     height: 24px;
     background-color: #e5e5e5;
     border-radius: 5px;
   }
+  .fixed-bottom {
+    color: black;
+        background-color: white;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+  }
 }
+@media only screen and (max-width: 776px) {
+  .fixed-bottom {
+    color: black;
+        background-color: white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+  }
+}
+
 #add{
   border: 5px solid #5234D4;
   border-radius: 5px;
