@@ -184,7 +184,10 @@ span {
 #fromend {
   height: 55%;
 }
-
+.ram{
+  margin-top: auto;
+  margin-bottom: auto;
+}
 html {
   height: 100%;
 }
