@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Arbitrage Investment</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="USDTETHmini.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row py-3 fixed-top">
+            <div class="col-2"> <a href="ETHmini.html"><i class="fas fa-long-arrow-alt-left"></i></a> </div>
+            <div class="col-8 text-center">Start BT Invest ETH</div>
+        </div>
+
+        <div class="" id="balance">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center"><span class="px-3">Available balance</span> </div>
+                <div class="col-6 text-right ">
+                    <p class="mt-3 px-3">0 ETH</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-muted my-3">
+            <div class="col-6"><span>Investment amount</span></div>
+            <div class="col-6 text-right"><span>Min: 0.00001 ETH</span></div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="row " id="inputnum">
+                <div class="col-11 p-0"><input type="text" id="inputtext">&nbsp;</div>
+                <div class="col-1 d-flex justify-content-end py-2 pr-0"><button type="button"
+                        class="btn btn-dark">MAX</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4" id="fromend" >
+        <div class="row text-muted my-3">
+            <div class="col-6"><span>Ending Date</span></div>
+            <div class="col-6 text-right"><span class="text-dark font-weight-bold">2021-03-31</span></div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="row " id="widhtfull">
+                <div class="col-11 p-0 d-flex align-items-center"><span class="font-weight-bold">Auto-Renewal</span>
+                </div>
+                <div class="col-1 d-flex justify-content-end py-2 pr-0">
+                    <div class="tgl-group">
+                        <input class='tgl tgl-light' id='display-address' type='checkbox'>
+                        <label class='tgl-btn' for='display-address'></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div><span class="text-muted">Your investment will be automatically reinvested in the same product on the ending date.</span></div>
+
+        <div class="py-4">
+            <button class="btn-primary fixed-bottom" id="getstarted">Next</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
