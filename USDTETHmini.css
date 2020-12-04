@@ -20,8 +20,8 @@ a {
   background-repeat: repeat-x;
   filter: brightness(40%);
   height: 290px;
+  width: 100%;
   background-image: url("https://s27389.pcdn.co/wp-content/uploads/2017/05/AdobeStock_51875542.jpeg");
-  transform: scaleX(-1);
   background-attachment: fixed;
   background-position: 0% 26%;
 }
