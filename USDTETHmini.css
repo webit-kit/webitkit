@@ -156,6 +156,10 @@ table {
     margin-left: auto;
     margin-right: auto;
   }
+  h2 {
+    font-size: 1.5rem;
+    
+  }
 }
 /* for investing */
 #balance {
@@ -259,4 +263,13 @@ label {
 }
 #fullscreen {
   height: 100%;
+}
+h2{
+
+  font-weight: 700;
+}
+#successlogo {
+  color: green;
+  font-size: 5rem;
+  padding-bottom: 20px;
 }
