@@ -14,7 +14,6 @@ a {
   background-image: url("https://www.varchev.com/wp-content/uploads/2020/06/Quadruple-witching-1.jpg");
   transform: scaleX(-1);
   background-attachment: fixed;
-  background-position: 0% 26%;
   z-index: 2;
 }
 .topt {
