@@ -7,8 +7,13 @@ var maxchar = document.getElementById("maxchar")
 var letchar = document.getElementById("letchar")
 var numchar = document.getElementById("numchar")
 var passwordeye = document.getElementById("passwordeye");
+var passwordeyet = document.getElementById("passwordeyet");
 var invalidep = document.getElementById("invalidep")
+var confirmp = document.getElementById("confirmpassword")
+var invalude
 var a = [0, true];
+var b = 0
+var passvalue = ""
 var check = [0, 0, 0, 0]
 var passwordcontent;
 email.addEventListener("change", function () {
@@ -45,7 +50,7 @@ email.addEventListener("change", function () {
 password.addEventListener("change", function () {
     var n = this.value.length;
     m = this.value
-
+    passvalue = m
     if (n > 30) {
         if (check[0] === 0) { maxchar.classList.toggle("text-danger") }
         check[0] = 1
@@ -98,4 +103,24 @@ passwordeye.addEventListener("click", function () {
     }
     passwordeye.classList.toggle("fa-eye-slash")
     passwordeye.classList.toggle("fa-eye")
+})
+confirmp.addEventListener("change", function () {
+    if ( this.value != passvalue && b==0){
+        invalidep.classList.toggle("d-none")
+        b=1
+    }
+    if (this.value == passvalue && b==1)
+    {
+        invalidep.classList.toggle("d-none")
+        b=0
+    }
+})
+passwordeyet.addEventListener("click", function () {
+    if (confirmp.type === "password") {
+        confirmp.type = "text";
+    } else {
+        confirmp.type = "password";
+    }
+    passwordeyet.classList.toggle("fa-eye-slash")
+    passwordeyet.classList.toggle("fa-eye")
 })
