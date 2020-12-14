@@ -272,3 +272,29 @@ h2{
   font-size: 5rem;
   padding-bottom: 20px;
 }
+/* deposite */
+.selectinput{
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.qrcode {
+  text-align: center;
+}
+.qrcode img {
+   width: 150px;
+}
+.qrcode p{
+  white-space: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+#deposite button{
+  height: 40px;
+  width: 60%;
+}
+#deposite {
+  padding-top: 24px;
+  padding-bottom: 56px;
+}

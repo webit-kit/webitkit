@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposite</title>
+    <link rel="icon" href="Asset/icon.png" type="image/x-icon'/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="USDTETHmini.css">
+</head>
+
+<body>
+    <div class="container p-0">
+        <div class="row py-3 fixed-top">
+            <div class="col-2"> <a href="Profile.html"><i class="fas fa-long-arrow-alt-left"></i></a> </div>
+            <div class="col-8 text-center">Deposite</div>
+        </div>
+        <div>
+            <div>&nbsp;</div>
+        </div>
+        <div class="selectinput">
+        <div class="input-group mb-3 margintop">
+            <select class="custom-select" id="inputGroupSelect01">
+             <option selected> USDT/USDC<img src="Asset/ethereum.png" width="10px" alt=""></option>
+              <option value="1">ETH</option>
+            </select>
+          </div>
+        </div>
+          <div class="qrcode">
+              <img src="Asset/qrcode.jpg" alt="">
+              <p class="d-none" id="texttocopy">71a42b6874747033a2f2f777772e796f75747562652e636f6d2f77617463687 5747562652e636f6d2f7761746368</p>
+                  <p>71a42b6874747033a2f2f777772e796
+                    f75747562652e636f6d2f77617463687
+                    5747562652e636f6d2f7761746368</p>
+            </div>
+            <div class="text-center" id="deposite">
+                <button onclick="copyToClipboard('#texttocopy')" class="btn-primary" id="getstarted">Copy</button>
+            </div>
+</div>          
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="depos.js"></script>
+</body>
+</html>
+
+

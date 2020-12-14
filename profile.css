@@ -163,3 +163,16 @@ table {
   background-color: #241566;
 
 }
+.balance {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+ width: 100%;
+ padding: 20px;
+}
+.balance button {
+  padding: 0;
+  height: 40px
+}
