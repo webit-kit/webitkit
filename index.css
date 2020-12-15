@@ -302,7 +302,9 @@ body {
 }
 /* slider */
 .slidecontainer {
-  width: 100%; /* Width of the outside container */
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; /* Width of the outside container */
 }
 .dataslider {
   -webkit-appearance: none;
@@ -323,7 +325,7 @@ body {
   width: 18px;
   height: 18px;
   border-radius: 50%; 
-  background: #3e6dec;
+  background: #ffffff;
   cursor: pointer;
   z-index: 1;
 }
@@ -332,10 +334,17 @@ body {
   opacity: 1; /* Fully shown on mouse-over */
 }
 .scroller {
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 32px;
   height: 400px;
-  width: 300px;
-  background-color: white;
+  width: 400px;
+  background-color: rgb(62, 93, 99);
+  color: white;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+}
+#demo {
+  white-space: nowrap;
+  font-size: 0.8rem;
 }
