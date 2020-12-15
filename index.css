@@ -300,3 +300,42 @@ body {
   height: 100px;
   object-fit: cover;
 }
+/* slider */
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+.dataslider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;  
+  background: #83a8d8;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  overflow: visible;
+}
+
+.dataslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%; 
+  background: #3e6dec;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dataslider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+.scroller {
+  margin-top: 32px;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}

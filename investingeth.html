@@ -46,31 +46,35 @@
     </div>
 
     <div class="container mt-2" id="fromend" >
-        <div class="row text-muted my-3">
-            <div class="col-6"><span>Ending Date</span></div>
-            <div class="col-6 text-right"><span class="text-dark font-weight-bold">2021-03-31</span></div>
-        </div>
+        
 
         <div class="d-flex justify-content-center">
             <div class="row widhtfull">
-                <div class="col-11 p-0 d-flex align-items-center"><span class="font-weight-bold">Auto-Renewal</span>
+                <div class="col-9 p-0 d-flex align-items-center"><span class="font-weight-bold">Choose period</span>
                 </div>
-                <div class="col-1 d-flex justify-content-end py-2 pr-0">
-                    <div class="tgl-group">
-                        <input class='tgl tgl-light' id='display-address' type='checkbox'>
-                        <label class='tgl-btn' for='display-address'></label>
-                    </div>
+                <div class="col-3 d-flex justify-content-end py-2 pr-0">
+                    <select class="custom-select" id="inputGroupSelect01" onchange="datechange(this.value)">
+                        <option selected> 15 days</option>
+                         <option value="3 months">3 months</option>
+                         <option value="6 months">6 months</option>
+                         <option value="12 months">12 months</option>
+                       </select>
                 </div>
             </div>
         </div>
+        <div class="row text-muted my-3">
+            <div class="col-6"><span>Ending Date</span></div>
+            <div class="col-6 text-right" ><span class="text-dark font-weight-bold" id="datatext"></span></div>
+        </div>  
 
-        <div><span class="text-muted">Your investment will be automatically reinvested in the same product on the ending date.</span></div>
+        <!-- <div><span class="text-muted">Your investment will be automatically reinvested in the same product on the ending date.</span></div> -->
 
         <div class="py-4">
             <a href="confirmation.html"><button class="btn-primary fixed-bottom" id="getstarted">Next</button></a>
         </div>
     </div>
 
+    <script type="text/javascript" src="investing.js"></script>
 
 
 </body>

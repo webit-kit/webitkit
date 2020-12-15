@@ -55,3 +55,19 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #d9534f}";
     document.body.appendChild(css);
 };
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+var percent = document.getElementById("percent")
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value + " days";
+  var numm="" 
+  numm += this.value*0.032+7.32 
+  var ind=numm.indexOf(".")
+  percent.innerHTML= numm.slice(0,ind+3)+"%"
+  console.log("asdasds")
+}
+
+
+
