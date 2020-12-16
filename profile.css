@@ -176,3 +176,35 @@ table {
   padding: 0;
   height: 40px
 }
+.performancetable{
+  width: 100%;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  height: 180px;
+  padding: 24px;
+}
+.perchange {
+  font-size: 0.7rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  padding:3px;
+  font-weight: normal;
+}
+#line {
+  stroke:rgb(37, 68, 153);stroke-width:3
+}
+.linesvg {
+  height: 100px;
+  width: 100%;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: rgb(31, 63, 122);
+  text-decoration: none;
+}
