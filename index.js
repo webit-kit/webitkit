@@ -57,18 +57,25 @@ window.onload = function() {
 };
 
 var slider = document.getElementById("myRange");
+
 var output = document.getElementById("demo");
+
 var percent = document.getElementById("percent")
+var percents = document.getElementById("percents")
+
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
   var movnum = ""
   movnum +=this.value*0.85 + "px"
-  output.style.paddingLeft=movnum
+  output.style.paddingLeft=movnum;
+
   output.innerHTML = this.value + " days";
   var numm="" 
   numm += this.value*0.032+7.32 
   var ind=numm.indexOf(".")
   percent.innerHTML= numm.slice(0,ind+3)+"%"
+
+  percents.innerHTML= numm.slice(0,ind+3)+"%"
 }
 
 
