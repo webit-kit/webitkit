@@ -3,7 +3,9 @@ var password = document.getElementById("password")
 var email = document.getElementById("email");
 var emailicon = document.getElementById("emailcheck")
 var a = [0, true];
-
+var ckk = {
+    email:"ash@mail.ru",
+    passowrd:"1234qwer"}
 email.addEventListener("change", function () {
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
@@ -40,3 +42,12 @@ passwordeye.addEventListener("click", function () {
     passwordeye.classList.toggle("fa-eye-slash")
     passwordeye.classList.toggle("fa-eye")
 })
+function checkemail(){
+    if (email.value.match(ckk.email) && password.value.match(ckk.passowrd))
+    {
+        location.replace("profileuser.html")
+    }
+    else {
+        alert("Wrong login or password")
+    }
+}
