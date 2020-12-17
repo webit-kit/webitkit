@@ -56,19 +56,33 @@ li {
   transform: translate(-50%, -50%);
 }
 #topp {
-  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
   filter: brightness(40%);
   height: 320px;
   background-image: url("https://www.varchev.com/wp-content/uploads/2020/06/Quadruple-witching-1.jpg");
   transform: scaleX(-1);
 }
 #contimg {
-  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
   filter: brightness(40%);
   height: 320px;
   background-image: url("https://s27389.pcdn.co/wp-content/uploads/2017/05/AdobeStock_51875542.jpeg");
 }
-
+#topstable {
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%);
+  height: 320px;
+  background-image: url("Asset/stable.jpg");
+}#topeth {
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%);
+  height: 320px;
+  background-image: url("Asset/ethone.jpg");
+}
 .dropbtn {
   color: black;
   font-size: 16px;
