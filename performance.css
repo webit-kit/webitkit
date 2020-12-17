@@ -3,11 +3,20 @@ body {
     font-weight: 500;
     background-color: whitesmoke;
     height: 100%;
+    
   }
   a {
     color: black;
   }
+  .textgraph {
+    height: 100px;
+    width: 10px;
+    overflow: visible;
+    background-color: red;
+  }
   .container {
+    overflow: hidden;
+
     padding-top: 10px;
     padding-bottom: 50px;
     background-color: white;
@@ -103,6 +112,7 @@ body {
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     margin-bottom: 24px;
+
 }
 .log {
     font-size: 0.8rem;

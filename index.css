@@ -80,7 +80,7 @@ body {
     border-bottom: 4px solid black;
   }
   #logoimg{
-    padding-right: 20%;
+    padding-left: 10%;
   }
   a{
       color: black;
@@ -247,6 +247,8 @@ body {
 }
 .imagereview {
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 20px;
   border-radius: 50px;
   width: 100px;
@@ -322,8 +324,19 @@ width: 40px;
 height: 40px;
 border: 2px solid white;
 }
+#last .container {
+  overflow: hidden;
+}
 @media only screen and (max-width: 768px) {
-
+  .reviewsec h2{
+    font-size: 1.2rem;
+  }
+  section {
+    overflow: hidden;
+  }
+  .reviewsec h3{
+    font-size: 1rem;
+  }
   .transform {
     left:50%;
   }
