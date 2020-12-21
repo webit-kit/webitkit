@@ -68,10 +68,11 @@
                 <p class="font-weight-bold">0.757727 USDT</p>
             </div>
             <div class="lines ">
-                <div class="line class mb-4"></div>
+                <!-- <div class="line class mb-4"></div>
                 <div class="line class mb-1"></div>
                 <div class="line class mb-1"></div>
-                <div class="line class mb-1"></div>
+                <div class="line class mb-1"></div> -->
+                <canvas id="myChart" width="400" height="150"></canvas>
 
                   <p class="note"> All return in the performance trend section is calculated on the 15th and last day of each month.</p>
             </div>
@@ -108,7 +109,51 @@
             <div>&nbsp;</div>
         </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['', '11/09', '', '11/15', '', '11/22', ''],
+        datasets: [{
+            label: 'Total',
+            barThickness: 20,
+            data: [0, 0.757727, 0, 0.767727, 0, 0.87727,0],
+            backgroundColor: [
+                '#2c3e4c',
+                '#2c3e4c',
+                '#2c3e4c',
+                '#2c3e4c',
+                '#2c3e4c',
+                '#2c3e4c'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        legend: {display: false},
+        title: {
+            display: false
+        },
+        gridLines: {
+                    display: false,
+                    zeroLineWidth: 0
+				},
+        
+        scales: {
+            yAxes: [{
+                ticks: {
+                    display:false
+                    
+                }
+            }]
+        }
+    }
+});
+</script>
+
 </body>
 
 </html>

@@ -156,9 +156,9 @@ table {
 }
 
 #add{
-  border: 5px solid #5234D4;
+  border: 5px solid #2c3e4c;
   border-radius: 5px;
-  background-color: #5234D4;
+  background-color: #2c3e4c;
   color: white;
 }
 #add:hover {
