@@ -7,6 +7,13 @@ body {
 a {
   color: black;
 }
+.btn-primary{
+  background-color: #2c3e4c;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #5b82a0;
+}
 .topo {
   background-repeat: repeat-x;
   filter: brightness(40%);
@@ -23,6 +30,21 @@ a {
   background-image: url("https://s27389.pcdn.co/wp-content/uploads/2017/05/AdobeStock_51875542.jpeg");
   background-attachment: fixed;
   background-position: 0% 26%;
+}
+#topstable {
+  background-repeat: repeat-x;
+  filter: brightness(40%);
+  height: 290px;
+  background-image: url("Asset/stable.jpg");
+  background-attachment: fixed;
+  background-position: 0% 26%;
+}#topeth {
+  background-repeat: repeat-x;
+  filter: brightness(40%);
+  height: 290px;
+  background-attachment: fixed;
+  background-position: 0% 26%;
+  background-image: url("Asset/ethone.jpg");
 }
 .container {
   padding-top: 10px;
@@ -111,57 +133,7 @@ table {
   width: 51%;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media only screen and (max-width: 992px) {
-  .fixed-top {
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .container {
-    width: 100%;
-  }
-  #pref {
-    width: 30px;
-    height: 24px;
-    background-color: #e5e5e5;
-    border-radius: 5px;
-  }
-  .fixed-bottom {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media only screen and (max-width: 556px) {
-  .fixed-bottom {
-    width: 80%;
-  }
-  .topt h4 {
-    font-size: 1rem;
-  }
-  .centered {
-    width: 98%;
-  }
-  i {
-    font-size: 1rem;
-  }
-  .fixed-top {
-    color: black;
-    background-color: white;
-    font-size: 0.75rem;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  h2 {
-    font-size: 1.5rem;
-    
-  }
-}
-/* for investing */
-#balance {
+}#balance {
   color: rgb(255, 255, 255);
   margin-top: 60px;
   background-color: #4863A0;
@@ -302,7 +274,6 @@ h2{
   margin-top: 20px;
   margin-bottom: 20px;
   width: 94%;
-  height: 150px;
   padding-top: 42px;
   padding-bottom: 42px;
   margin-left: auto;
@@ -329,3 +300,60 @@ input {
   margin: 5px;
   text-align: center;
 }
+
+@media only screen and (max-width: 992px) {
+  .fixed-top {
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    width: 100%;
+  }
+  #pref {
+    width: 30px;
+    height: 24px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+  }
+  .fixed-bottom {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 556px) {
+  .fixed-bottom {
+    width: 80%;
+    bottom: 50px;
+  }
+  .topt h4 {
+    font-size: 1rem;
+  }
+  .centered {
+    width: 98%;
+  }
+  i {
+    font-size: 1rem;
+  }
+  .fixed-top {
+    color: black;
+    background-color: white;
+    font-size: 0.75rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-size: 1.5rem;
+    
+  }
+  .qrcode p {
+    overflow-wrap: break-word;
+  }
+ 
+#fromend {
+  height: 60%;
+}
+}
+/* for investing */

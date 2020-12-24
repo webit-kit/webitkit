@@ -19,7 +19,16 @@ body {
 #textsmall {
   font-size: 13px;
 }
-
+.btn-primary{
+  background-color: #2c3e4c;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #5b82a0;
+}
+.btn.btn-primary:active:hover {
+  background-color: #5b82a0;
+}
 #pref {
   width: 100px;
   height: 24px;
@@ -162,9 +171,18 @@ table {
   color: white;
 }
 #add:hover {
-  border: 5px solid #241566;
-  background-color: #241566;
-
+  border: 5px solid #5b82a0;
+  background-color: #5b82a0;
+}
+#addcarry{
+  border: 5px solid #2c3e4c;
+  border-radius: 5px;
+  background-color: #2c3e4c;
+  color: white;
+}
+#addcarry:hover {
+  border: 5px solid #5b82a0;
+  background-color: #5b82a0;
 }
 .balance {
   margin-left: auto;

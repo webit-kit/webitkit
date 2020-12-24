@@ -19,7 +19,7 @@
     <div class="container p-0">
         <div class="row py-3 fixed-top">
             <div class="col-2">
-                <a href="profileuserdepos.html"><i class="fas fa-long-arrow-alt-left"></i></a>
+                <a href="profileuserdeposethstable.html"><i class="fas fa-long-arrow-alt-left"></i></a>
             </div>
             <div class="col-8 text-center">Performance</div>
         </div>
@@ -88,20 +88,11 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>11/16-11/22</td>
-                    <td>1.0564%</td>
-                    <td>0.757727 USDT</td>
+                    <td>01/14</td>
+                    <td></td>
+                    <td>1000 USDT</td>
                   </tr>
-                  <tr>
-                    <td>11/09-11/15</td>
-                    <td>1.0564%</td>
-                    <td>0.757727 USDT</td>
-                  </tr>
-                  <tr>
-                    <td>11/02-11/08</td>
-                    <td>1.0564%</td>
-                    <td>0.757727 USDT</td>
-                  </tr>
+                  
                 </tbody>
               </table>
         </section>
@@ -116,20 +107,20 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['', '11/09', '', '11/15', '', '11/22', ''],
+        labels: ['', '01/14', '', '', ''],
         datasets: [{
             label: 'Total',
             barThickness: 20,
-            data: [0, 0.757727, 0, 0.767727, 0, 0.87727,0],
+            data: [1500, 1000, 0, 0, 0],
             backgroundColor: [
-                '#2c3e4c',
+                '#ffffff00',
                 '#2c3e4c',
                 '#2c3e4c',
                 '#2c3e4c',
                 '#2c3e4c',
                 '#2c3e4c'
             ],
-            borderWidth: 1
+            borderWidth: 0
         }]
     },
     options: {

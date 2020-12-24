@@ -7,6 +7,16 @@ input {
   box-sizing: border-box;
   width: 95%;
 }
+.btn-primary{
+  background-color: #2c3e4c;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #5b82a0;
+}
+.btn.btn-primary:active:hover {
+  background-color: #5b82a0;
+}
 .botbor {
   border-bottom: 1px solid gray;
   padding-top: 20px;

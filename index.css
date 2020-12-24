@@ -224,13 +224,18 @@ body {
   height: 70px;
   object-fit: cover;
 }
-.btn-primary{
+.btn.btn-primary{
   background-color: #2c3e4c;
   border: none;
 }
-.btn-primary:hover {
+.btn.btn-primary:hover {
   background-color: #5b82a0;
-
+}
+.btn.btn-primary:active {
+  background-color: #5b82a0;
+}
+.btn.btn-primary:active:hover {
+  background-color: #5b82a0;
 }
 .aboutsec {
   color: white;

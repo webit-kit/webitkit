@@ -1,5 +1,6 @@
 var textdate = document.getElementById("datatext")
 var checkinput = document.getElementById("inputGroupSelect01")
+var inputtext = document.getElementById("inputtext")
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+(today.getDate()+15);
 textdate.innerHTML=date;
@@ -21,3 +22,7 @@ function datechange(value) {
             textdate.innerText=date
         }
    }
+var avaamount = document.getElementById("avaamount")
+function maxamount(){
+    inputtext.value=avaamount.innerText
+}
