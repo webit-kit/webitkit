@@ -7,11 +7,14 @@ input {
   box-sizing: border-box;
   width: 95%;
 }
-.btn-primary{
+.fullwidth {
+  width: 100%;
+}
+.btn.btn-primary{
   background-color: #2c3e4c;
   border: none;
 }
-.btn-primary:hover {
+.btn.btn-primary:hover {
   background-color: #5b82a0;
 }
 .btn.btn-primary:active:hover {
