@@ -36,8 +36,12 @@
               <p class="d-none" id="texttocopy">0x1853D19Cc1305CEf5F317F17156289Fdf758BB0E</p>
                   <p>0x1853D19Cc1305CEf5F317F17156289Fdf758BB0E</p>
             </div>
+            
+            <div class="alert" id="ale"> 
+                Address has been copied to clipboard
+              </div>
             <div class="text-center" id="deposite">
-                <button onclick="copyToClipboard('#texttocopy')" class="btn btn-primary" id="getstarted">Copy</button>
+                <button onclick="copyToClipboard('#texttocopy'), myVar=setTimeout(hide,800)" class="btn btn-primary" id="getstarted">Copy</button>
             </div>
 </div>          
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
