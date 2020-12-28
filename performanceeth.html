@@ -29,17 +29,17 @@
 
         <section class="header text-center pb-3 pt-3">
             <div class="pt-5">
-                <h3 class="pb-0">72.487727 <span class="font-weight-normal">USDT</span></h3>
+                <h3 class="pb-0">72.487727 <span class="font-weight-normal">ETH</span></h3>
                 <p class="text-ligth mb-0">Porfolio Value</p>
                 <p class="">Ending date 2020-12-31</p>
             </div>
             <div class="row headersmall">
                 <div class="col-6">
-                    <h4>71.73 USDT</h4>
+                    <h4>71.73 ETH</h4>
                     <p>Total invested</p>
                 </div>
                 <div class="col-6">
-                    <h4>+0.757727 USDT</h4>
+                    <h4>+0.757727 ETH</h4>
                     <p>Gain/Loss</p>
                 </div>
             </div>
@@ -65,7 +65,7 @@
             </div>
             <div>
                 <p class="mb-0">Gain/Loss</p>
-                <p class="font-weight-bold">0.757727 USDT</p>
+                <p class="font-weight-bold">0.757727 ETH</p>
             </div>
             <div class="lines ">
                 <!-- <div class="line class mb-4"></div>
@@ -87,25 +87,31 @@
                   </tr>
                 </thead>
                 <tbody>
+                    
                     <tr>
-                        <td>01/14</td>
-                        <td></td>
-                        <td>1.757727 USDT</td>
+                        <td>01/09</td>
+                        <td>Invested</td>
+                        <td>1 ETH</td>
                       </tr>
-                  <tr>
-                    <td>11/16-11/22</td>
+                      <tr>
+                        <td>12/14-12/28</td>
+                        <td>1.0564%</td>
+                        <td>0.83727 ETH</td>
+                      </tr>
+                    <tr>
+                    <td>11/30-12/13</td>
                     <td>1.0564%</td>
-                    <td>0.757727 USDT</td>
+                    <td>0.80727 ETH</td>
                   </tr>
                   <tr>
-                    <td>11/09-11/15</td>
+                    <td>11/16-11/29</td>
                     <td>1.0564%</td>
-                    <td>0.757727 USDT</td>
+                    <td>0.767727 ETH</td>
                   </tr>
                   <tr>
-                    <td>11/02-11/08</td>
+                    <td>11/02-11/15</td>
                     <td>1.0564%</td>
-                    <td>0.757727 USDT</td>
+                    <td>0.737727 ETH</td>
                   </tr>
                 </tbody>
               </table>
@@ -121,12 +127,14 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['', '11/09', '', '11/15', '', '11/22', '', '01/14', ''],
+        labels: [ '', '11/15', '', '11/29', '', '12/13', '', '12/29', '', '01/09', ''],
         datasets: [{
             label: 'Total',
             barThickness: 20,
-            data: [0, 0.757727, 0, 0.767727, 0, 0.87727,0, 1.87727, 0],
+            data: [0, 0.737727, 0, 0.767727, 0, 0.80727, 0, 0.83727, 0, 1.83727, 0],
             backgroundColor: [
+                '#2c3e4c',
+                '#2c3e4c',
                 '#2c3e4c',
                 '#2c3e4c',
                 '#2c3e4c',
