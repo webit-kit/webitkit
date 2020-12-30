@@ -243,9 +243,8 @@ a:hover{
   z-index: 2;
 }
 #signout button {
-  background-color: rgb(23, 122, 101);
   border-radius: 5px;
   color: white;
-  width: 45px;
+  width: 65px;
   height: 45px;
 }
