@@ -68,7 +68,7 @@
           <a href="withdraw.html"><button type="button" class="btn btn-secondary btn-lg btn-block">Withdraw</button></a>
         </div>
                     <div style="text-align:center;">
-              <button id="signInBtn">Sign In</button>
+              <button id="signInBtn">Sign Out</button>
             </div
       </div>
     </div>
@@ -170,6 +170,11 @@
 
     </div>
   </div>
+        <script>
+    document.getElementById('signInBtn').addEventListener('click', function() {
+      window.location.href = 'index.html';
+    });
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
